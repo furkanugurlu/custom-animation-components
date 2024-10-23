@@ -5,6 +5,7 @@ const data = [
   {key: 'darkmodeswitch', name: 'Dark Mode Switch'},
   {key: 'customtoast', name: 'Custom Toast'},
   {key: 'accordion', name: 'Accordion'},
+  {key: 'onboradingpaginationindicator', name: 'Onboarding Pagination Indicator'},
 ];
 
 function HomeScreen({ navigation }: { navigation: any }): React.JSX.Element {
