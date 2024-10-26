@@ -6,6 +6,7 @@ const data = [
   {key: 'customtoast', name: 'Custom Toast'},
   {key: 'accordion', name: 'Accordion'},
   {key: 'onboradingpaginationindicator', name: 'Onboarding Pagination Indicator'},
+  {key: 'switch', name: 'Custom Switch'},
 ];
 
 function HomeScreen({ navigation }: { navigation: any }): React.JSX.Element {

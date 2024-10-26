@@ -6,6 +6,7 @@ import DarkModeSwitch from '../screens/DarkModeSwitch';
 import CustomToast from '../screens/CustomToast';
 import AccordionScreen from '../screens/Accordion';
 import PaginationIndicator from '../screens/PaginationIndicator';
+import Switch from '../screens/Switch';
 
 
 
@@ -20,6 +21,7 @@ function MainStack() {
         <Stack.Screen name="customtoast" component={CustomToast} />
         <Stack.Screen name="accordion" component={AccordionScreen} />
         <Stack.Screen name="onboradingpaginationindicator" component={PaginationIndicator} />
+        <Stack.Screen name="switch" component={Switch} />
       </Stack.Navigator>
     </NavigationContainer>
   );
