@@ -7,6 +7,7 @@ const data = [
   {key: 'accordion', name: 'Accordion'},
   {key: 'onboradingpaginationindicator', name: 'Onboarding Pagination Indicator'},
   {key: 'switch', name: 'Custom Switch'},
+  {key: 'reanimatedcarousel', name: 'Reanimated Carousel'},
 ];
 
 function HomeScreen({ navigation }: { navigation: any }): React.JSX.Element {

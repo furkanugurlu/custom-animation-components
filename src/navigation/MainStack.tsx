@@ -7,8 +7,7 @@ import CustomToast from '../screens/CustomToast';
 import AccordionScreen from '../screens/Accordion';
 import PaginationIndicator from '../screens/PaginationIndicator';
 import Switch from '../screens/Switch';
-
-
+import ReanimatedCarousel from '../screens/ReanimatedCarousel';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +21,7 @@ function MainStack() {
         <Stack.Screen name="accordion" component={AccordionScreen} />
         <Stack.Screen name="onboradingpaginationindicator" component={PaginationIndicator} />
         <Stack.Screen name="switch" component={Switch} />
+        <Stack.Screen name="reanimatedcarousel" component={ReanimatedCarousel} />
       </Stack.Navigator>
     </NavigationContainer>
   );
