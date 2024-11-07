@@ -3,9 +3,10 @@ import React from 'react'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import PexelsWallpapers from './components/PexelsWallpapers'
 
-const queryClient = new QueryClient()  
 
 const ReanimatedCarousel = () => {
+  const queryClient = new QueryClient()  
+
   return (
     <QueryClientProvider client={queryClient}>
       <PexelsWallpapers />

@@ -1,13 +1,7 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
-import HomeScreen from '../screens/HomeScreen';
-import DarkModeSwitch from '../screens/DarkModeSwitch';
-import CustomToast from '../screens/CustomToast';
-import AccordionScreen from '../screens/Accordion';
-import PaginationIndicator from '../screens/PaginationIndicator';
-import Switch from '../screens/Switch';
-import ReanimatedCarousel from '../screens/ReanimatedCarousel';
+import { DarkModeSwitch, HomeScreen, CustomToast, AccordionScreen, PaginationIndicator, Switch, ReanimatedCarousel } from '../screens';
 
 const Stack = createNativeStackNavigator();
 

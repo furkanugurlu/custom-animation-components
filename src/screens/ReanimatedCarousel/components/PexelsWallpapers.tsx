@@ -84,7 +84,11 @@ const PexelsWallpapers = () => {
         }
     })
 
-    console.log(data);
+    const scrollX = useSharedValue(0)
+    const onScroll = useAnimatedScrollHandler((event) => {
+        scrollX.value = event.contentOffset.x / (_imageWidth + _spacing)
+    })
+
 
     if (isLoading) {
         return (
@@ -93,12 +97,7 @@ const PexelsWallpapers = () => {
             </View>
         )
     }
-
-    const scrollX = useSharedValue(0)
-    const onScroll = useAnimatedScrollHandler((event) => {
-        scrollX.value = event.contentOffset.x / (_imageWidth + _spacing)
-    })
-
+    
     return (
         <View style={styles.container}>
             <View style={StyleSheet.absoluteFillObject}>
